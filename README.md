@@ -10,23 +10,21 @@ Kernel Average Misorientation Analysis of EBSD Patterns
 ## Installing
 
 
-## Simulating your first traffic pattern
+## KAM Analysis
+
 
 #### Input
-
-
-
-
-#### Simulation
-
-                    
-#### Plotting the Data
 
 
 #### Output
 
 
-#### Other forms of output
+
+## Just a little bit of background math
+
+
+
+## Modifying the Code
 
 
 
