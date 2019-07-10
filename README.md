@@ -2,11 +2,10 @@
 Kernel Average Misorientation Analysis of EBSD Patterns
 
 
-
 ## Getting Started
 This collection of MATLAB scripts was developed to perform kernel-average misorientation analysis of raw EBSD patterns. Misorientation mapping can help better understand subgrain structure and processes such as dynamic recrystallization and pseudo-strain measurements. This code is currently designed to handle cubic structure and pure samples. 
 
-If you are unfamiliar with the math behind crystallographic misorientation analysis, there background math section below may be helpful. 
+If you are unfamiliar with the math behind crystallographic misorientation analysis, there background math section may be helpful. 
 
 
 ## Installing
@@ -45,7 +44,15 @@ Varying EBSD detectors/softwares may vary in the structure of their raw EBSD dat
 
 However the most import feature of the raw EBSD file is the phi, PHI, and phi2 values for each pixel with respect to its index number. If the raw data for each pixel can be extracted (or provided), the rest of the table can be user generated. 
 
+*Note*
+Given the number of nearest neighbors a rectangular kernel will be constructed. For example, if neighbors=3 the kernel considered during each misorientation calculation will be a 10x10 grid surrounding the point/pixel of interest. Kernel geometry can be modified by modifying KAM_calc.m. 
+
+<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/kernel.JPG" width="600">
+
 #### Input
+To run the calculation the user must define the number of nearest neighbors to consider in main_kernel_calc.m. Depending on the power of your computer, it is recommended that you start with 1-3 neighbors because the calculation can be time consuming - though it will readily run in the background and time estimates to completion are provided. 
+
+
 
 
 #### Output
@@ -56,7 +63,6 @@ However the most import feature of the raw EBSD file is the phi, PHI, and phi2 v
 
 
 
-## Modifying the Code
 
 
 
