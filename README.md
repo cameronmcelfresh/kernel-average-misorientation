@@ -52,19 +52,27 @@ Given the number of nearest neighbors a rectangular kernel will be constructed. 
 #### Input
 To run the calculation the user must define the number of nearest neighbors to consider in main_kernel_calc.m. Depending on the power of your computer, it is recommended that you start with 1-3 neighbors because the calculation can be time consuming - though it will readily run in the background and time estimates to completion are provided. 
 
+The user is then prompted to select the .txt file that contains the EBSD data. 
+
 
 
 
 #### Output
 
-
+>> main_kernel_calc\
+Parsing the EBSD data...\
+Converting to orientation matricies...\
+Calculating the nearest neighbor misorientation...\
 
 ## Just a little bit of background math
 
 
 
+<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/kernel_math.JPG" width="600">
 
 
+
+<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/kernel_math1.JPG" width="600">
 
 
   
