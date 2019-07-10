@@ -31,7 +31,7 @@ Varying EBSD detectors/softwares may vary in the structure of their raw EBSD dat
 #Beta: 9E1\
 #Gamma: 9E1\
 #Orientations:\
-#Index    Phase	x	y	phi1	PHI	phi2	Bands	BC	GrainIndex\
+#Index              Phase	x	y	phi1	PHI	phi2	Bands	BC	GrainIndex\
 0	1	0	0	1.434201877E2	2.390389414E1	2.467704713E2	12	163	-1\
 1	1	1	0	1.43549729E2	2.422165518E1	2.469476464E2	12	177	-1\
 2	1	2	0	1.439342243E2	2.405383045E1	2.465798271E2	12	180	-1\
@@ -39,7 +39,7 @@ Varying EBSD detectors/softwares may vary in the structure of their raw EBSD dat
 
 ...etc
 
-
+However the most import feature of the raw EBSD file is the phi, PHI, and phi2 values for each pixel with respect to its index number. If the raw data for each pixel can be extracted (or provided), the rest of the table can be user generated. 
 
 #### Input
 
