@@ -59,10 +59,28 @@ The user is then prompted to select the .txt file that contains the EBSD data.
 
 #### Output
 
->> main_kernel_calc\
+>>main_kernel_calc\
 Parsing the EBSD data...\
 Converting to orientation matricies...\
 Calculating the nearest neighbor misorientation...\
+3.22% complete - estimated 0h 26m remaining (0m elapsed)\
+6.45% complete - estimated 0h 26m remaining (1m elapsed)\
+9.67% complete - estimated 0h 26m remaining (2m elapsed)\
+12.89% complete - estimated 0h 25m remaining (3m elapsed)
+
+(25 minutes later)
+
+90.26% complete - estimated 0h 2m remaining (25m elapsed\
+93.49% complete - estimated 0h 1m remaining (26m elapsed)\
+96.71% complete - estimated 0h 0m remaining (27m elapsed)\
+99.94% complete - estimated 0h 0m remaining (28m elapsed)
+Cleaning data...\
+Plotting!\
+
+<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/raw_misorientation.JPG" width="600">
+<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/misorientation_capped.JPG" width="600">
+<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/twin_boundaries.JPG" width="600">
+
 
 ## Just a little bit of background math
 
