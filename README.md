@@ -44,7 +44,7 @@ Varying EBSD detectors/softwares may vary in the structure of their raw EBSD dat
 
 However the most import feature of the raw EBSD file is the phi, PHI, and phi2 values for each pixel with respect to its index number. If the raw data for each pixel can be extracted (or provided), the rest of the table can be user generated. 
 
-*Note*
+*Note*/
 Given the number of nearest neighbors a rectangular kernel will be constructed. For example, if neighbors=3 the kernel considered during each misorientation calculation will be a 10x10 grid surrounding the point/pixel of interest. Kernel geometry can be modified by modifying KAM_calc.m. 
 
 <img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/kernel.JPG" width="600">
