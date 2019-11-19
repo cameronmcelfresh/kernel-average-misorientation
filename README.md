@@ -70,7 +70,7 @@ Calculating the nearest neighbor misorientation...\
 
 (25 minutes later)
 
-90.26% complete - estimated 0h 2m remaining (25m elapsed\
+90.26% complete - estimated 0h 2m remaining (25m elapsed)\
 93.49% complete - estimated 0h 1m remaining (26m elapsed)\
 96.71% complete - estimated 0h 0m remaining (27m elapsed)\
 99.94% complete - estimated 0h 0m remaining (28m elapsed)\
