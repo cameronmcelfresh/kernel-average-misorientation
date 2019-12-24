@@ -47,7 +47,7 @@ However the most import feature of the raw EBSD file is the phi, PHI, and phi2 v
 *Note*/
 Given the number of nearest neighbors a rectangular kernel will be constructed. For example, if neighbors=3 the kernel considered during each misorientation calculation will be a 10x10 grid surrounding the point/pixel of interest. Kernel geometry can be modified by modifying KAM_calc.m. 
 
-<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/kernel.JPG" width="600">
+<img src="https://github.com/cameronmcelfresh/images/blob/master/kernel.JPG" width="600">
 
 #### Input
 To run the calculation the user must define the number of nearest neighbors to consider in main_kernel_calc.m. Depending on the power of your computer, it is recommended that you start with 1-3 neighbors because the calculation can be time consuming - though it will readily run in the background and time estimates to completion are provided. 
@@ -77,20 +77,20 @@ Calculating the nearest neighbor misorientation...\
 Cleaning data...\
 Plotting!
 
-<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/raw_misorientation.JPG" width="400">
-<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/misorientation_capped.JPG" width="400">
-<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/twin_boundaries.JPG" width="400">
+<img src="https://github.com/cameronmcelfresh/imges/blob/master/raw_misorientation.JPG" width="400">
+<img src="https://github.com/cameronmcelfresh/imges/blob/master/misorientation_capped.JPG" width="400">
+<img src="https://github.com/cameronmcelfresh/imges/blob/master/twin_boundaries.JPG" width="400">
 
 
 ## Just a little bit of background math
 
 
 
-<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/kernel_math.JPG" width="600">
+<img src="https://github.com/cameronmcelfresh/images/blob/master/kernel_math.JPG" width="600">
 
 
 
-<img src="https://github.com/cameronmcelfresh/kernel-average-misorientation/blob/master/kernel_math1.JPG" width="600">
+<img src="https://github.com/cameronmcelfresh/images/blob/master/kernel_math1.JPG" width="600">
 
 
   
