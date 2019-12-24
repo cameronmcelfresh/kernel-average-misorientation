@@ -5,7 +5,7 @@ Kernel Average Misorientation Analysis of EBSD Patterns
 ## Getting Started
 This collection of MATLAB scripts was developed to perform kernel-average misorientation analysis of raw EBSD patterns. Misorientation mapping can help better understand subgrain structure and processes such as dynamic recrystallization and pseudo-strain measurements. This code is currently designed to handle cubic structure and pure samples. 
 
-If you are unfamiliar with the math behind crystallographic misorientation analysis, there background math section may be helpful. 
+If you are unfamiliar with the math behind crystallographic misorientation analysis, the background math section may be helpful. 
 
 
 ## Installing
