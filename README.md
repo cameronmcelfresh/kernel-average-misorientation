@@ -77,9 +77,9 @@ Calculating the nearest neighbor misorientation...\
 Cleaning data...\
 Plotting!
 
-<img src="https://github.com/cameronmcelfresh/imges/blob/master/raw_misorientation.JPG" width="400">
-<img src="https://github.com/cameronmcelfresh/imges/blob/master/misorientation_capped.JPG" width="400">
-<img src="https://github.com/cameronmcelfresh/imges/blob/master/twin_boundaries.JPG" width="400">
+<img src="https://github.com/cameronmcelfresh/images/blob/master/raw_misorientation.JPG" width="400">
+<img src="https://github.com/cameronmcelfresh/images/blob/master/misorientation_capped.JPG" width="400">
+<img src="https://github.com/cameronmcelfresh/images/blob/master/twin_boundaries.JPG" width="400">
 
 
 ## Just a little bit of background math
